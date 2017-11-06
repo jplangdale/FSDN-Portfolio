@@ -7,5 +7,5 @@
   completed
 
 ## How To Use
-  Clone or download the zip and load index.html into a web browser. images are
-  located in the images directory.
+  Clone or download the zip and load index.html into a web browser. Images are
+  located in the images directory. The css file is style.css in the css directory
