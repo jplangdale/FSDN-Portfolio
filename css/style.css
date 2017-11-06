@@ -5,7 +5,7 @@
 
 body {
   background-color: #FFF;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 h1, h2, h3 {
@@ -132,14 +132,23 @@ footer {
 
 /*-------------Small Screens < 601px -------------------------------- */
 @media screen and (max-width: 600px)  {
-  #flex-items .projects{
-    width: 99%;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 15px;
+  .flex-container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    padding: 10px 20px;
   }
-  #flex-items .projects img{
+  #flex-items .projects{
     width: 100%;
+    margin-right: 0!important;
+    margin-left: 0!important;
+    margin-bottom: 20px;
+}
+
+  #flex-items .projects img{
+    width: 99%;
   }
 }
 
