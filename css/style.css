@@ -73,14 +73,14 @@ header .right-col .subtitle {
   font-size: 25px;
 }
 
-/*--- FLEXBOX container ----*/
+
 .flex-container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 10px 20px;
 }
 
-/*--- FEXBOX items ---*/
+/*--- FLEXBOX items container ---*/
 #flex-items {
   display: flex;
   display: -webkit-box;
@@ -132,14 +132,6 @@ footer {
 
 /*-------------Small Screens < 601px -------------------------------- */
 @media screen and (max-width: 600px)  {
-  .flex-container {
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-
-    margin: 0 auto;
-    padding: 10px 20px;
-  }
   #flex-items .projects{
     width: 100%;
     margin-right: 0!important;
