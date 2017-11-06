@@ -28,7 +28,6 @@ a:visited {
 
 img {
   max-width: 99%;
-  max-height: auto;
 }
 
 header {
@@ -123,7 +122,7 @@ footer {
   background-color: #EEE;
   display: flex;
   justify-content: center;
-  max-width: auto;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 20px 100px;
 }
